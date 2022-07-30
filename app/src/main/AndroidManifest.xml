@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ogi_ncc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OGINCC">
+        <activity
+            android:name=".applicationActivity"
+            android:exported="false"
+            android:parentActivityName=".notice"/>
+        <activity
+            android:name=".achievements"
+            android:exported="false"
+            android:parentActivityName=".nccHomeActivity"/>
+        <activity
+            android:name=".pledge"
+            android:exported="false"
+            android:parentActivityName=".nccHomeActivity"/>
+        <activity
+            android:name=".aim"
+            android:exported="false"
+            android:parentActivityName=".nccHomeActivity"/>
+        <activity
+            android:name=".about"
+            android:exported="false"
+            android:parentActivityName=".nccHomeActivity"/>
+        <activity
+            android:name=".faq"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".camps"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".gallery"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".cadets"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".syllabus"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".notice"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".nccHomeActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".startactivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
